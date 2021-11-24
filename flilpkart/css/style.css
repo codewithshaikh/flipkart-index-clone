@@ -1,0 +1,82 @@
+/**{
+	margin: 0;
+	padding: 0;
+
+}*/
+
+body{
+	font-family: sans-serif;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #2874F0;
+	min-width: 120px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+	padding: 12px 16px;
+	color: white;
+
+
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+.checked{
+	color: orange;
+}
+
+#btn{
+	width: 150px;
+	height: 30px;
+	background-color: #458265;
+	color: white;
+}
+
+
+.end1{
+	color: white;
+	font-family: serif;
+}
+
+.end2{
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	font-family: serif;
+}
+
+.aa img:hover{
+	transform: scale(1.1);
+}
+
+.mySlides{
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	/*color: blue;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
